@@ -59,7 +59,7 @@ const MOMENTOS = [
   },
   {
     fecha: "Una escapada",
-    titulo: "Toluca: mi abue y Zacango",
+    titulo: "Toluca",
     foto: "fotos/09-toluca.jpg",
     texto: "Te llevé a Toluca, donde viví antes de mudarme a la CDMX. Conociste a mi abue y fuimos al zoológico de Zacango. Enseñarte mis raíces se sintió como darte una llave de mi vida."
   },
@@ -127,7 +127,7 @@ const MOMENTOS = [
     fecha: "Hoy",
     titulo: "Aquí, vivivitos",
     foto: "fotos/20-ahora.jpg",
-    texto: "Y míranos ahora: viviendo juntos, cumpliendo dos años de noviervivitos. Lo que empezó con un 'hola' por mensaje hoy es mi casa, mi rutina y mi persona favorita."
+    texto: "Y míranos ahora: viviendo juntos, cumpliendo dos años de noviecitos. Lo que empezó con un 'hola' por mensaje hoy es mi casa, mi rutina y mi persona favorita."
   }
 ];
 
@@ -136,7 +136,7 @@ const CARTA = [
   "Josh, si llegaste hasta aquí es porque recorriste, estrella por estrella, todo lo que hemos construido. Dos años que se dicen rápido, pero que están hechos de cientos de días eligiéndonos.",
   "Gracias por perderte ese primer día y aun así llegar. Gracias por escaparte para verme, por los conciertos, por los viajes, por dejarme cuidarte en tus peores momentos y por reírte de los míos. Gracias por hacer de cualquier día normal algo que vale la pena recordar.",
   "Acuario y Capricornio, dicen que somos polos distintos. Yo creo que por eso encajamos: tú me aterrizas, yo te elevo, y juntos formamos una constelación que nadie más entiende.",
-  "Feliz aniversario, mi amor. Aquí estoy, listo para el año tres y para todos los que vengan."
+  "Feliz aniversario, amorcito. Aquí estoy, listo para el año tres y para todos los que vengan."
 ];
 
 /* ============================================================
