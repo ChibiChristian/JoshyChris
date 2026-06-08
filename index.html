@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Para Josh Tonoto · Dos años contigo</title>
+  <meta name="description" content="Una historia escrita en las estrellas." />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Cielo de fondo -->
+  <div id="sky" aria-hidden="true"></div>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+
+  <!-- Botón de música -->
+  <button id="musicToggle" class="music-toggle" aria-label="Activar o silenciar música" hidden>
+    <span class="music-icon">♪</span>
+  </button>
+  <audio id="bgm" loop preload="auto">
+    <source src="musica/supernatural.mp3" type="audio/mpeg" />
+  </audio>
+  <div id="ytFallback" aria-hidden="true"></div>
+
+  <!-- Portada -->
+  <section id="intro">
+    <div class="intro-inner">
+      <div class="zodiac-pair">
+        <span class="glyph" title="Acuario — tú">♒</span>
+        <span class="glyph-link"></span>
+        <span class="glyph" title="Capricornio — Josh">♑</span>
+      </div>
+      <p class="intro-kicker">Dos años contigo</p>
+      <h1 class="intro-title">Para Josh Tonoto</h1>
+      <p class="intro-sub">Una historia escrita en las estrellas.<br />Tócala y recórrela conmigo.</p>
+      <button id="openBtn" class="open-btn">Abrir nuestro cielo</button>
+      <p class="intro-hint">11 · 06 · 2024 → 11 · 06 · 2026</p>
+    </div>
+  </section>
+
+  <!-- Recorrido -->
+  <main id="journey" hidden>
+    <header class="journey-head">
+      <p class="kicker">Nuestra constelación</p>
+      <h2>Cada estrella, un recuerdo</h2>
+      <p class="scroll-cue">Desliza hacia abajo ↓</p>
+    </header>
+
+    <div class="trail">
+      <div class="spine"><div class="spine-lit"><span class="comet"></span></div></div>
+      <div id="stations"></div>
+    </div>
+
+    <!-- Final -->
+    <section id="finale">
+      <div class="finale-sky">
+        <div class="merge">
+          <span class="glyph big">♒</span>
+          <span class="merge-line"></span>
+          <span class="glyph big">♑</span>
+        </div>
+        <p class="finale-date">11 de junio de 2026</p>
+      </div>
+      <article id="letter" class="letter">
+        <h3 class="letter-title">Para ti, Tonoto</h3>
+        <div id="letterBody" class="letter-body"></div>
+        <p class="letter-sign">— Christian</p>
+      </article>
+      <p class="finale-stamp">Feliz aniversario · 2 años de noviervivitos · ✦</p>
+      <button id="replayBtn" class="replay-btn">Volver a empezar ↺</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

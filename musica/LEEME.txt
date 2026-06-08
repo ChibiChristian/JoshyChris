@@ -1,0 +1,5 @@
+Pon aqui el archivo de la cancion con el nombre exacto:
+
+   supernatural.mp3
+
+Si no lo pones, el sitio reproduce el audio oficial de YouTube automaticamente.
